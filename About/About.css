@@ -1,0 +1,35 @@
+.about-container {
+  min-height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1556740749-887f6717d7e4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80");
+
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  
+
+
+.about-content {
+  background: rgba(255, 255, 255, 0.75);
+  padding: 40px;
+  border-radius: 16px;
+  max-width: 700px;
+  width: 90%;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.about-content h1 {
+  font-size: 2.5rem;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #444;
+  margin-bottom: 15px;
+}
